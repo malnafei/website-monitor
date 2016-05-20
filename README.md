@@ -53,4 +53,4 @@ In Conclusion hope you enjoy with this small programe and don't forget to follow
 
 **License:**
 
-As of May 19, 2016 url-scanner is licensed under the GPLv3+: http://choosealicense.com/licenses/gpl-3.0
+As of May 19, 2016 website-monitor is licensed under the GPLv3+: http://choosealicense.com/licenses/gpl-3.0
