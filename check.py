@@ -12,6 +12,9 @@ consumer_key = "xxxxxxxxxxxxxxxxxxxxxxxx"
 consumer_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 access_key = "xxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 access_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+print "Program start.."
+print "Python program to monitor site uptime and send alert via twitter using tweepy library.\nCoded by http://www.twitter.com/magic_coding"
+print "# Hit CTRL+C to quit the program"
 
 # list of sites to track along with twitter account to send the alert
 # url should be with http://
@@ -67,5 +70,8 @@ def site_down():
 			except requests.ConnectionError:
 					twitter_acc_sender('🚩New Alert🚩\n\nHi Admin,\n\nWe noticed that your site '+client+' was down⚠️\n\n----\nThis program coded by @magic_coding', twitter_acc)
 					print client, "Site Currently down - alert sent"
+
+t1 = Thread(target = site_up)
+t2 = Thread(target = site_down)
 t1.start()
 t2.start()
