@@ -20,7 +20,7 @@ pip install requests
 
 **How to use?**
 
-1. [Download](https://github.com/magic-coding/url-scanner/archive/master.zip) & Extract website-monitor.zip file.
+1. [Download](https://github.com/magic-coding/website-monitor/archive/master.zip) & Extract website-monitor.zip file.
 2. Edit `check.py` file using any code editor.
 3. You will need to create an app account on https://dev.twitter.com/apps
 	1. Sign in with your Twitter account
