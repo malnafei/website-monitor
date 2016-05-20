@@ -36,11 +36,11 @@ consumer_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 access_key = "xxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxx"
 access_secret = "xxxxxxxxxxxxxxxxxxxxxx"
 ```
-5. on `line 22` add your website url with `http://` or `https://` and your twitter account id "Get twitter account id from here" [http://gettwitterid.com](http://gettwitterid.com)
+5.on `line 22` add your website url with `http://` or `https://` and your twitter account id "Get twitter account id from here" [http://gettwitterid.com](http://gettwitterid.com)
 ```
 clients = {"website-url":"twitter-account-id"}
 ```
-6. Save `check.py` file and enjoy.
+6.Save `check.py` file and enjoy.
 
 **How it works?**
 
